@@ -12,3 +12,9 @@ Based on the rhythm, notes will drop from the top of the track, when the note ge
 
 For longer hold notes, hold the key when the bottom of the hold note reaches the white line, then release the key once the top of the note has just left the line.
 
+### Create song and maps
+
+It is very easy to create a beatmap in rhythm plus, just create as you are playing one!
+
+
+
