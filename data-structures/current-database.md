@@ -1,20 +1,5 @@
 # Current Database
 
-### Songs
-
-* **id**: varchar \[pk\]
-* **artist**: varchar
-* **createdBy**: varchar // ref user.id
-* **dateCreated**: timestamp
-* **dateUpdated**: timestamp
-* **image**: varchar
-* **srcMode**: varchar // youtube or url
-* **title**: varchar
-* **subtitle**: varchar
-* **url**: varchar
-* **visibility**: varchar // public, private, unlisted
-* **youtubeId**: varchar
-
 ### Users
 
 * **id** varchar \[pk\]
@@ -41,6 +26,22 @@
     * \[key string\]:\[mapped key string\]
     * e.g: a:z
 
+### Songs
+
+* **id**: varchar \[pk\]
+* **artist**: varchar
+* **createdBy**: varchar // ref user.id
+* **dateCreated**: timestamp
+* **dateUpdated**: timestamp
+* **image**: varchar // image url, if not present, use youtube thumbnail 
+* **srcMode**: varchar // youtube or url
+* **title**: varchar
+* **subtitle**: varchar
+* **url**: varchar
+* **visibility**: varchar // public, private, unlisted
+* **youtubeId**: varchar
+* **tags**: array, contain tag string
+
 ### Sheets
 
 * **id** varchar \[pk\]
@@ -55,9 +56,11 @@
 * **length** float4
 * **noteCount** int
 * **visualizerName** varchar
-* **sheet** varchar // TODO JSON OBJECT
+* **sheet** varchar // JSON OBJECT
 
-Below options default to null, but if present, it will override songs param
+{% hint style="info" %}
+Below options defaults to null, but if present, it will override song's param
+{% endhint %}
 
 * **image** varchar
 * **srcMode** varchar // "youtube" or "url"
@@ -65,6 +68,65 @@ Below options default to null, but if present, it will override songs param
 * **subtitle** varchar
 * **url** varchar
 * **youtubeId** varchar
+
+### Tags
+
+* **id** varchar // the tag itself
+* **dateCreated** timestamp
+* **dateUpdated** timestamp
+* **createdBy** varchar // ref user.id
+* **tag** varchar
+
+### Results
+
+* **id** varchar \[pk\]
+* **uid** varchar // ref user.id ! should change to **createdBy**
+* **dateCreated** timestamp
+* **expAdded** int // experience added
+* **expBefore** int // user's exp before the result
+* **isFullCombo** boolean
+* **playId** varchar
+* **rank** varchar // S+, S, A, B, C, D, F
+* **visibility** varchar // public, private, unlisted
+* **sheetId** varchar
+* **songId** varchar
+* **result**
+  * **combo** int
+  * **maxCombo** int
+  * **percentage** float
+  * **score** float
+  * **totalHitNotes** int
+  * **totalPercentage** float
+  * **marks**
+    * **perfect** int
+    * **good** int
+    * **offbeat** int
+    * **miss** int
+
+### Plays
+
+{% hint style="info" %}
+Records when user click the start song button
+{% endhint %}
+
+* **id** varchar \[pk\]
+* **createdBy** varchar // ref user.id
+* **dateCreated** timestamp
+* **dateUpdated** timestamp
+* **isAuthed** boolean // is player logged in
+* **status** varchar // started, finished, playing, exited, game-over, closed, tutorial-ends
+* **sheetId** varchar
+* **songId** varchar
+* **resultId** varchar // if game finished, otherwise null
+* **result** \[same as the one in results\] // if game exited, tutorial-ends or closed, otherwise null
+* **visibility** varchar // public, private, unlisted
+
+### Playlists
+
+* **id** varchar \[pk\]
+* **createdBy** varchar // ref user.id
+* **items** array of songId
+* **visibility** varchar // public, private, unlisted
 
 ```text
 Table users as U {
