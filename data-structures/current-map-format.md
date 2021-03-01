@@ -15,7 +15,7 @@ JSON array of note objects
   "t": float, // time: note start time in seconds
   "k": str,   // key: single or combination of 'a','s','d','f',' ','j','k','l',';'
   "h": {      // hold: hold key object, optional if key or part of the key is a hold key
-    "[str]": float //[str]: hold key end time, keys like d,f,j,k
+    "[str]": float //[str]: hold key end time in seconds, keys like d,f,j,k
   }
 }
 ```
