@@ -1,9 +1,15 @@
+---
+description: Firestore structure
+---
+
 # Current Database
 
 ## Current Tables
 
 {% hint style="info" %}
-The current table are stored inside firebase firestore, id cloud be document index
+The current database is stored inside firebase firestore, id cloud be document index.
+
+Firestore is similar to mongoDB, but it has collections, which is essetially another document inside a document, that can be queried individually.
 {% endhint %}
 
 ### Users
