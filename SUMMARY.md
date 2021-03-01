@@ -2,9 +2,12 @@
 
 * [Welcome](README.md)
 * [Changelogs](changelogs.md)
-* [API Docs](api-docs.md)
-* [Data Structures](data-structures/README.md)
-  * [Proposed Database](data-structures/proposed-database.md)
-  * [Current Database](data-structures/current-database.md)
-  * [Current Map Format](data-structures/current-map-format.md)
+
+## Development
+
+* [API Docs](development/api-docs.md)
+* [Data Structures](development/data-structures/README.md)
+  * [Proposed Database](development/data-structures/proposed-database.md)
+  * [Current Database](development/data-structures/current-database.md)
+  * [Current Map Format](development/data-structures/current-map-format.md)
 
