@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Changelogs](untitled.md)
+* [Changelogs](changelogs.md)
 * [API Docs](api-docs.md)
 * [Data Structures](data-structures/README.md)
   * [Proposed Database](data-structures/proposed-database.md)
