@@ -6,8 +6,6 @@ description: Proposed to migrate database to SQL
 
 ## Database Design
 
-![](../../.gitbook/assets/rhythm-plus-1-.png)
-
 ### [View ER Diagram](https://dbdiagram.io/d/603a3d69fcdcb6230b21c4ab) - [Open DB Docs](https://dbdocs.io/henryz00/RhythmPlus)
 
 ## Proposed Changes

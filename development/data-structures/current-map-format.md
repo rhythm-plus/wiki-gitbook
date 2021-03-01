@@ -6,7 +6,7 @@ description: Song sheet or mapping format
 
 ## Map format
 
-JSON array of note objects
+JSON array of note objects, ordered by time
 
 ### Note object
 
