@@ -4,6 +4,12 @@ description: Proposed to migrate database to SQL
 
 # Proposed Database
 
+## Database Design
+
+![](../../.gitbook/assets/rhythm-plus-1-.png)
+
+### [View ER Diagram](https://dbdiagram.io/d/603a3d69fcdcb6230b21c4ab) - [Open DB Docs](https://dbdocs.io/henryz00/RhythmPlus)
+
 ## Proposed Changes
 
 We propose to migrate the current firestore database into SQL format.
@@ -29,6 +35,7 @@ We also plan to add the following new changes:
   * Now, when user wants to create a song, they can first search for the song library, if found, they can create a pack, having the option to customize the title or just use the song's default ones. If the song does not exist, they can create a song. A song only contains basic info like youtube id, title, artist, thumbnail and subtitle. Once created, this info should not be changeable, we should warn the user about this when saving.
 * Add _ratings_ for the _packs_
   * 1-5 scale, so that we can rank packs by ratings
+* Add original, source
 
 
 
