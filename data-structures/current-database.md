@@ -1,5 +1,11 @@
 # Current Database
 
+## Current Tables
+
+{% hint style="info" %}
+The current table are stored inside firebase firestore, id cloud be document index
+{% endhint %}
+
 ### Users
 
 * **id** varchar \[pk\]
@@ -26,6 +32,19 @@
     * \[key string\]:\[mapped key string\]
     * e.g: a:z
 
+#### Collections
+
+* **exp-changelog**
+  * **dateCreated**
+  * **expAdded** int
+  * **expBefore** int
+  * **type** varchar // game\_result
+  * **detail** //flexible json
+    * playId
+    * resultId
+    * sheetId
+    * songId
+
 ### Songs
 
 * **id**: varchar \[pk\]
@@ -41,6 +60,10 @@
 * **visibility**: varchar // public, private, unlisted
 * **youtubeId**: varchar
 * **tags**: array, contain tag string
+
+#### Collections
+
+* history \[document in the same format as songs\]
 
 ### Sheets
 
@@ -68,6 +91,10 @@ Below options defaults to null, but if present, it will override song's param
 * **subtitle** varchar
 * **url** varchar
 * **youtubeId** varchar
+
+#### Collections
+
+* **history** \[document in the same format as sheets\]
 
 ### Tags
 
@@ -127,6 +154,10 @@ Records when user click the start song button
 * **createdBy** varchar // ref user.id
 * **items** array of songId
 * **visibility** varchar // public, private, unlisted
+
+## DBML File
+
+With minor SQL revision
 
 ```text
 Table users as U {
