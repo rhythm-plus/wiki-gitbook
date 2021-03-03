@@ -1,5 +1,25 @@
 # Changelogs
 
+## 1.1.0 - 2021-03-02 - [PR75](https://github.com/henryz00/Rhythm-Plus-Music-Game/pull/75)
+
+### Added
+
+* Refactor song list, improve sheet filter
+* Redesign song select mobile list animations
+* Add latest song list in recommend page
+* Add smooth list height animation and transitions
+* Set menu and studio page router keep-alive
+* Add game over screen and effects
+* Add UI, modal and fever sound effects
+* New BGM added
+* Dependency upgrades, update husky and webpack to v5
+
+### Fixed
+
+* Fix scrollbar
+* Improve youtube loading experience
+* Bug fixes
+
 ## 1.0.9 - 2021-01-06 - [PR63](https://github.com/henryz00/Rhythm-Plus-Music-Game/pull/38)
 
 ### Fixed
