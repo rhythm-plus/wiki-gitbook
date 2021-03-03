@@ -5,6 +5,7 @@
 
 ## Development
 
+* [Planned Features](development/planned-features.md)
 * [Data Structures](development/data-structures/README.md)
   * [Proposed Database](development/data-structures/proposed-database.md)
   * [Current Database](development/data-structures/current-database.md)
