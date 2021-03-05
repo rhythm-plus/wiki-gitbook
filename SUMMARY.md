@@ -10,5 +10,6 @@
   * [Proposed Database](development/data-structures/proposed-database.md)
   * [Current Database](development/data-structures/current-database.md)
   * [Current Map Format](development/data-structures/current-map-format.md)
-* [API Docs](development/api-docs.md)
+* [API Docs](development/api-docs/README.md)
+  * [User Profile](development/api-docs/user-profile.md)
 
