@@ -6,12 +6,14 @@
 
 * get user profile \(uid\)
 * update user profile \(data\)
+* login & logout
 
 ### Pack
 
 * get pack list \(orderBy, afterId, tag, author\)
 * get pack \(packId\) 
-* update pack \(packId, data\)
+* update pack \(packId, data\) 
+* create pack
 
 ### Sheet
 
