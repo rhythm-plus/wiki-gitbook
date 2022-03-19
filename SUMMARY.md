@@ -1,12 +1,15 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Changelogs](changelogs.md)
 
-## Policies
+## Changelogs
 
-* [Terms and Conditions](policies/terms-and-conditions.md)
-* [Privacy Policy](policies/privacy-policy.md)
+* [Changelogs](changelogs/changelogs.md)
+
+## Terms
+
+* [Terms and Conditions](terms/terms-and-conditions.md)
+* [Privacy Policy](terms/privacy-policy.md)
 
 ## Development
 
