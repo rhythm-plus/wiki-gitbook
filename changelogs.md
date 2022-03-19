@@ -1,5 +1,31 @@
 # Changelogs
 
+## 1.2.0 - 2022-03-16
+
+### Features&#x20;
+
+* A brand new database structure that allows pagination, which will drastically improve the performance for the menu or lobby page&#x20;
+* Creator name of a song will now be visible by default, but you have the option to stay anonymous and hide the name for any specific song you created&#x20;
+* Ability to favourite a song is added&#x20;
+* Ability to create and share playlists for a collection of songs&#x20;
+* Ability to delete any song, sheet or playlist you made&#x20;
+* Improved settings experience, you can now save settings without reloading&#x20;
+* A new setting is added to mute background music by default Improvements&#x20;
+* Key indicator is added for each track when the song is about to start&#x20;
+* Added mouse support to game control&#x20;
+* A more friendly notice for the Youtube ID field&#x20;
+* Redesigned modal UI&#x20;
+* Difficulty names will be correctly displayed&#x20;
+* Improved editor onboarding&#x20;
+
+### Bug fixes&#x20;
+
+* Bug fix for the pausing exploit&#x20;
+* Bug fix for the key remap modal&#x20;
+* A few other bug fixes&#x20;
+
+With the newly designed backend and database as the infrastructure, you can expect updates to come more often, our next big goal is to refactor the game engine, to eliminate lagging, improve the editing experience, and provide customisable skins, scroll directions etc, stay tuned!
+
 ## 1.1.0 - 2021-03-02 - [PR75](https://github.com/henryz00/Rhythm-Plus-Music-Game/pull/75)
 
 ### Added
@@ -61,7 +87,7 @@
 * Redesign game note speed logic, add editor functions
 * Add game progress bar and game resume countdown
 * Add editor route before leave warning
-* Refactor themes and visualizers, add star visualizer \(new default theme\)
+* Refactor themes and visualizers, add star visualizer (new default theme)
 * Update studio loading to chunk loading
 * Redesign song tag logic
 * Add tag filtering, song search and sort function
@@ -77,6 +103,4 @@
 * Game start logic update
 * Refactor visualizer, making it pluggable and modular
 * Implement sheet editor
-
-
 
