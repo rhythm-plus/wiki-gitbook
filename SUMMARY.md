@@ -8,7 +8,7 @@
 
 ## Terms
 
-* [Terms and Conditions](terms/terms-and-conditions.md)
+* [Terms of Service](terms/terms-of-service.md)
 * [Privacy Policy](terms/privacy-policy.md)
 
 ## Development
