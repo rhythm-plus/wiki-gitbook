@@ -1,5 +1,13 @@
 # Changelogs
 
+## 1.2.2 - 2022-03-27
+
+* the lobby list can now stay smooth when scrolling, no matter how many songs are loaded into the list
+* a back to top button is added
+* selected song will be highlight in the list
+* new map list design to accommodate titles
+* note judging now switched to time based instead of pixel based, this means no matter what speed you set, the accuracy would not be affected!
+
 ## 1.2.0 - 2022-03-16
 
 ### Features&#x20;
