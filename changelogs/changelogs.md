@@ -11,7 +11,7 @@
 * Fix background music mute toggle
 * Other bug fixes
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 ## 1.2.3 - 2022-04-27
 
