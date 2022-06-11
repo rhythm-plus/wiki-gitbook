@@ -2,7 +2,7 @@
 
 ### Title Screen
 
-![](<.gitbook/assets/image (6).png>)
+![Home](<.gitbook/assets/image (4).png>)
 
 ### Song Select
 
@@ -16,7 +16,7 @@
 
 ### Preferences
 
-![Preferences](<.gitbook/assets/image (4).png>)
+![Preferences](<.gitbook/assets/image (4) (1).png>)
 
 ### Sheet Editor
 
