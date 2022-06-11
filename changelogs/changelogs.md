@@ -1,5 +1,32 @@
 # Changelogs
 
+## 1.2.4 - 2022-05-11
+
+* Add low graphics mode that disables fever and hit effects
+* Add customizable note and track color options
+* Add song info in sheet detail popup
+* Add like buttons in the song preview panel and result page
+* Fix slow list loading and request failures under high load
+* Fix indefinite loading when creating a song in the editor
+* Fix background music mute toggle
+* Other bug fixes
+
+![](<../.gitbook/assets/image (2).png>)
+
+## 1.2.3 - 2022-04-27
+
+* Redesigned filter bar, added key and difficulty filter, added option to sort by the average length of all the sheets in a song&#x20;
+* Added average length, difficulty and key information to song list item&#x20;
+* Added playlist sorting, searching and favorite functions - Added background dim slider - Added game volume slider&#x20;
+* Fix menu page losing its state when navigating between pages&#x20;
+* Bug fixes&#x20;
+
+\---
+
+* We have launched our official ko-fi page, become a supporter here [https://ko-fi.com/rhythmplus](https://ko-fi.com/rhythmplus) ❤
+* We have launched our second domain [http://rhythmplus.io/](http://rhythmplus.io/) ! Vote in the polls channel to decide which should be our primary domain.&#x20;
+* and... WE HAVE REACHED 1000 MEMBERS IN THE DISCORD SEVER 🎉 thank you and have fun!
+
 ## 1.2.2 - 2022-03-27
 
 * the lobby list can now stay smooth when scrolling, no matter how many songs are loaded into the list
